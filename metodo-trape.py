@@ -25,7 +25,7 @@ window.title("Metodo del trapecio")
 def trapecio(a, b, n):
     # Crear una lista para almacenar los valores
     tabla_resultados = []
-    #la funcion de fx 
+    #la funcion de fx MODOFICAR AQUI PARA LA OPERACION DE FUNCION
     fx = lambda x: (e**x**2)
     #fx = lambda x: np.sqrt(x)
     # le asignamos el valor n a la variable tramos
@@ -69,10 +69,7 @@ def trapecio(a, b, n):
     for i in range(0,muestras, 1):
         plt.axvline(xi[i], color= "w")
     plt.show()
-  
-
-
-    #valores del metodo
+    #EDITAR AQUI A PARA EL VALO INICIAL B PARA EL VALOR FINAL Y N PARA LOS NUMEROS DE TRAPECIOS
 trapecio(a=0, b=1, n=5)
 
 #terminamos la funcion de tkinter
